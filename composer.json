@@ -1,5 +1,5 @@
 {
-    "name": "faisal50x/blade-ionicons",
+    "name": "phpguru/blade-ionicons",
     "description": "A package to easily make use of ionicons in your Laravel Blade views.",
     "keywords": [
         "Blade",
@@ -8,33 +8,39 @@
         "ionicons",
         "laravel"
     ],
-    "homepage": "https://github.com/faisal50x/blade-ionicons",
+    "homepage": "https://github.com/phpguru/blade-ionicons",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Faisal Ahmed",
             "email": "foysal20x@gmail.com",
+            "homepage": "https://github.com/foysal20x/blade-ionicons",
             "role": "Developer"
-        }
+        },
+        {
+            "name": "Geoffrey Hoffman",
+            "email": "phpguru@programmer.net",
+            "role": "Maintainer"
+        }        
     ],
     "require": {
         "php": "^7.2|^7.3|^7.4|^8.0",
         "illuminate/support": "^7.14.0|^8.0",
-        "blade-ui-kit/blade-icons": "^0.4|^0.5"
+        "blade-ui-kit/blade-icons": "^1.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0",
+        "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Faisal50x\\BladeIonicons\\": "src"
+            "Phpguru\\BladeIonicons\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Faisal50x\\BladeIonicons\\Tests\\": "tests"
+            "Phpguru\\BladeIonicons\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Faisal50x\\BladeIonicons\\BladeIoniconsServiceProvider"
+                "Phpguru\\BladeIonicons\\BladeIoniconsServiceProvider"
             ],
             "aliases": {
-                "BladeIonicons": "Faisal50x\\BladeIonicons\\BladeIoniconsFacade"
+                "BladeIonicons": "Phpguru\\BladeIonicons\\BladeIoniconsFacade"
             }
         }
     }
