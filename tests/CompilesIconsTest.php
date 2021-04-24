@@ -1,10 +1,10 @@
 <?php
 
-namespace Faisal50x\BladeIonicons\Tests;
+namespace Phpguru\BladeIonicons\Tests;
 
 use Orchestra\Testbench\TestCase;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use Faisal50x\BladeIonicons\BladeIoniconsServiceProvider;
+use Phpguru\BladeIonicons\BladeIoniconsServiceProvider;
 
 class CompilesIconsTest extends TestCase
 {

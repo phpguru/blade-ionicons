@@ -60,5 +60,6 @@
                 "BladeIonicons": "Phpguru\\BladeIonicons\\BladeIoniconsFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

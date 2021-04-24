@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Faisal50x\BladeIonicons;
+namespace Phpguru\BladeIonicons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
